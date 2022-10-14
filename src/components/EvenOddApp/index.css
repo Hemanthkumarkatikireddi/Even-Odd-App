@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+.heading-count {
+  font-size: 18px;
+  margin: 20px;
+}
+@media screen and (min-width: 576px) {
+  .heading-count {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading-count {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .heading-count {
+    font-size: 64px;
+  }
+}
+
+.heading-description {
+  font-size: 12px;
+  font-family: Roboto;
+  color: #334155;
+}
+@media screen and (min-width: 576px) {
+  .heading-description {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .heading-description {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .heading-description {
+    font-size: 32px;
+  }
+}
+.description {
+  text-align: center;
+  color: #0f172a;
+}
+.button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  border: 0px;
+  color: #1e293b;
+  font-family: Roboto;
+  width: 100%;
+  margin: 10px;
+  font-size: 12px;
+}
+@media screen and (min-width: 576px) {
+  .button {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+p {
+  font-size: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  p {
+    font-size: 12px;
+  }
+}
